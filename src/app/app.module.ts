@@ -11,6 +11,8 @@ import { PostsService } from './posts.service';
 const ROUTES = [
   {
     path: '',
+    redirectTo: 'posts',
+    pathMatch: 'full'
   },
   {
     path: 'posts',
